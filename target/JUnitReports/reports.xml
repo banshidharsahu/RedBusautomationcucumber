@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="63.418" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="RedBus Operators view and prints" name="View and interact with Private Bus Operators" time="63.085">
+<system-out><![CDATA[
+Given User navigate to application URL and verify Home page.................passed
+When User click on View All for the Private Bus Operators section...........passed
+And Click the operator directories with the alphabet I then R and then back to A.passed
+And User scroll to the end of the page......................................passed
+And User click on pagination page 3.........................................passed
+Then User print all the operators listed in an output file..................passed
+]]></system-out>
+</testcase>
+</testsuite>
